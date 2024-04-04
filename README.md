@@ -10,6 +10,7 @@ This script will perform the following tasks:
 2. Create the directory structure required for Theta Guardian Node.
 3. Download Theta binaries and configuration files.
 4. Launch Theta Guardian Node in a screen session named theta_mainnet.
-5. The service will automatically start the Theta Guardian Node on system boot and restart it if it crashes.
+5. Create a systemd service to manage the Theta Guardian Node.
+6. Enable the systemd service to start automatically on boot.
 
 Make sure to run this script on your Linux server to install and run the Theta Guardian Node.
