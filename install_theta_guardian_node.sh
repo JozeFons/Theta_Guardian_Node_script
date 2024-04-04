@@ -8,8 +8,13 @@ fi
 
 # Install necessary dependencies
 echo "Installing necessary dependencies..."
-apt update
-apt install -y screen curl
+
+# Ensure curl is installed
+if ! command -v curl &> /dev/null; then
+    echo "curl is not installed. Installing curl..."
+    sudo apt-get update
+    sudo apt-get install -y curl
+fi
 
 # Create directory structure
 echo "Creating directory structure..."
