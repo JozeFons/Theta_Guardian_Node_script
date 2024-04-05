@@ -15,10 +15,16 @@ Tested on Linux server - Ubuntu 22.04 LTS 64bit
   sudo ./install_theta_guardian_node.sh
   ```
 
-* Optional: You can copy/paste from here to your server machine and create/open file with following command:
+* Optional:
+  Copy/paste from here to your server machine and create/open file with following command:
   ```
   sudo nano path/to/your/install_theta_guardian_node.sh
   ```
+  Use git to download specific file from github repo. On your machine navigate to `cd path/to/your/directory` and download desired file via weblink using command `wget`
+  ```
+  wget https://raw.githubusercontent.com/apps/example/master/README.md
+  ```
+
 
 This script will perform the following tasks:
 
