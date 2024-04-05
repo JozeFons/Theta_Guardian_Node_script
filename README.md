@@ -22,7 +22,7 @@ Tested on Linux server - Ubuntu 22.04 LTS 64bit
   ```
   Use git to download specific file from github repo. On your machine navigate to `cd path/to/your/directory` and download desired file via weblink using command `wget`
   ```
-  wget https://raw.githubusercontent.com/apps/example/master/README.md
+  wget https://github.com/JozeFons/Theta_Guardian_Node_script/blob/main/install_theta_guardian_node.sh
   ```
 
 
